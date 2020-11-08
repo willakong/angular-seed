@@ -8,6 +8,18 @@ This is a seed project for Angular. It includes the following features:
 
 This is intended to be a starting point so any projects that require the above can be started easily.
 
+# Cloning
+
+Run the following commands:
+
+```
+git clone https://github.com/willakong/angular-seed.git <folder-name>
+cd <folder-name>
+git remote rm origin
+git remote add origin <new-url>
+git push -u origin master
+```
+
 # Firebase Authentication
 
 After creating a Firebase project from the [Firebase Console](https://console.firebase.google.com/), fill in the enviornment variables in `environment.ts` and `environment.prod.ts` for production.
