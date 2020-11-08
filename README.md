@@ -1,6 +1,20 @@
 # Seed
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+This is a seed project for Angular. It includes the following features:
+
+- Angular Project generated with the [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0
+- Firebase Authentication with Google Sign In
+- Routing
+
+This is intended to be a starting point so any projects that require the above can be started easily.
+
+# Firebase Authentication
+
+After creating a Firebase project from the [Firebase Console](https://console.firebase.google.com/), fill in the enviornment variables in `environment.ts` and `environment.prod.ts` for production.
+
+# Angular CLI Usage
+
+The following was automatically generated when creating the Angular project using the CLI. It contains help for using the CLI for development.
 
 ## Development server
 
